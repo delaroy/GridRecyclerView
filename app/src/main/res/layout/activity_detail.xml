@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="310dp"
+        android:id="@+id/thumbnail_image_header"
+        android:fitsSystemWindows="true"
+        android:scaleType="fitXY"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nameofsongs"
+        android:layout_marginLeft="10dp"
+        android:text="Name of Album"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_below="@+id/thumbnail_image_header"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="3dp"
+        android:textSize="20sp"
+        android:layout_below="@+id/nameofsongs"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/numberofsongs"
+        android:layout_marginLeft="10dp"
+        android:text="Number Of Songs"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_below="@+id/name"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/numberofsongsdata"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="3dp"
+        android:textSize="20sp"
+        android:layout_below="@+id/numberofsongs"/>
+
+</RelativeLayout>
